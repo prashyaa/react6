@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Ubuntu:wght@500&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+nav{
+  display: flex;
+  justify-content: space-around;
+  font-family: 'Roboto',sans-serif;
+  font-size: 1.5rem;
+  color: white;
+  background-color: aqua;
+  padding: 1rem 0rem;
+}
+.navlinks{
+  color: white;
+  text-decoration: none;
+}
+.navlinks:hover{
+  color: red;
+}
+.student__page__head{
+  display: flex;
+  padding: 2rem;
+  justify-content: space-between;
+  width: 75%;
+}
+.student__page__head h1{
+  font-size: 2.25rem;
+}
+.student__page__head button{
+  padding: 0.5rem 1rem;
+    font-size: 1.5rem;
+    background-color: chartreuse;
+    font-weight: 600;
+    border-radius: 66px;
+    cursor: pointer;
+}
+.student__page__head button:hover{
+  color: bisque;
+  background-color: red;
+}
+.table__container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+table{
+  border: 7.5px  solid black ;
+  font-size: 1.2rem;
+  width: 75%;
+  padding: 2rem;
+  border-collapse: collapse;
+  text-align: center;
+}
+td{
+  border-bottom: 1px solid;
+  padding: 1rem;
+  font-family: 'Montserrat',sans-serif;
+}
+th{
+  border-bottom:1px solid black;
+  font-family: 'Ubuntu',sans-serif;
+  padding: 1rem;
+}
+.form__container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+}
+.form__container form{
+  border:5px solid green;
+  border-radius: 30px;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.input__item{
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+input[type="submit"], [type="text"]{
+  padding: 0.5rem 1rem ;
+  border-radius: 10px;
+  border: 1px solid black;
+  font-family: 'Montserrat',sans-serif;
+  cursor: pointer;
+}
+.input__item label{
+  font-family: 'Ubuntu',sans-serif;
+}
